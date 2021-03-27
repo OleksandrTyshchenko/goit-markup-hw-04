@@ -278,6 +278,35 @@ img {
 
 /* социалки */
 
+.social {
+  display: flex;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+    
+}
+
+.social-icon {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-client);
+}
+
+.social-icon:not(first-child) {
+  margin-right: 10px;
+}
+
+.social-icon:hover {
+  background-color: var(--accent-color);
+  fill: var(--background-color);
+  border-radius: 50%;
+
+
+}
 
 
 
