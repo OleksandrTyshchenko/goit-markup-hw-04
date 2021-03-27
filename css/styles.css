@@ -121,7 +121,6 @@ img {
 
 .page-header .container {
   display: flex;
-  justify-content: flex-end;
 }
 
 .page-header .logo {
@@ -157,6 +156,41 @@ img {
 .site-item:not(:last-child) {
   margin-right: 50px;
 }
+
+/* иконки хедера */
+
+
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-link .icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--button-active-color);
+}
+
+
+
 
 /* главная страница веб-студия*/
 
@@ -269,7 +303,7 @@ img {
   padding-bottom: 30px;
   padding-right: 24px;
   text-align: center;
-  background: #ffffff;
+  background: var(--color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -453,6 +487,59 @@ img {
 .container .footer {
   padding: 60px 0px;
 }
+
+.footer-contact {
+  display: inline-block;
+  flex-basis: calc((50%-45px) / 2);
+}
+  
+.footer {
+  display: flex;
+}
+
+
+/* иконки футера */
+
+.footer-social-icons {
+  padding: 0%;
+}
+
+.footer-social-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin-bottom: 20px;
+}
+
+.footer-social-icons-item {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icons-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+  fill: var(--background-color);
+}
+
+.footer-social-icons-link:hover,
+.footer-social-icons-link:focus {
+  background-color: var(--accent-color);
+}
+
 
 /*главаня страница портфолио*/
 .project {
