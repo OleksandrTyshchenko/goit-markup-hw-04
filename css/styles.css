@@ -74,6 +74,8 @@ img {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .studio {
@@ -81,6 +83,8 @@ img {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .site-nav .link {
@@ -452,30 +456,47 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.web-footer {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2; 
+}
+
 .studio-white {
   color: var(--color-white);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
 }
+
+
+
 .address {
   font-size: 14px;
   line-height: 2;
   color: var(--color-white);
   font-style: normal;
   padding-left: 0px;
+  margin-bottom: 9px;
 }
+
 .find-us {
   padding: 0px;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
+
+
+
 .contact {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contact-footer-color);
   font-style: normal;
+
 }
 
 .address:hover,
@@ -496,6 +517,7 @@ img {
   
 .footer {
   display: flex;
+  align-items: baseline;
 }
 
 
@@ -503,6 +525,7 @@ img {
 
 .footer-social-icons {
   padding: 0%;
+  margin: 0px;
 }
 
 .footer-social-title {
@@ -513,7 +536,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
-  line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .footer-social-icons-item {
@@ -551,6 +574,7 @@ img {
   font-size: 18px;
   line-height: 2;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 
 .desc {
@@ -576,15 +600,18 @@ img {
 
 .card-project {
   color: var(--contact-header-color);
+  display: block;
+  text-decoration: none;
 }
 
-
-.filter-item:hover,
-.filter-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+.card-project:hover,
+.card-project:focus {
+  box-shadow: 
+  0px 1px 1px rgba(0, 0, 0, 0.12), 
   0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .card {
   border-bottom: 1px solid #eeeeee;
