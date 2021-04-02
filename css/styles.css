@@ -659,8 +659,10 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+
 .filter-button .button-portfolio.curent {
   background-color: var(--accent-color);
+  color: var(--color-white);
 }
 
 .visually-hidden {
